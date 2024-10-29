@@ -6,15 +6,27 @@ The goal of this project is to develop a movie recommendation system that sugges
 ## Description
 This project leverages a dataset containing extensive details about movies, including attributes like genre, cast, crew, and ratings. The recommendation system is designed to analyze a selected movie and provide personalized suggestions based on user preferences.
 
+## Screenshots
+
+### Example Screenshot 1
+![Recommended Movies](screenshots/pirates-of-caribbean-screenshot.png)
+
+### Example Screenshot 2
+![Recommended Movies](screenshots/spider-man-screenshot.png)
+
 ### Key Features
 - **Dataset Attributes**:
   - `id`: Unique identifier for each movie.
   - `original_title`: Title of the movie as released.
+  - `overview`: Brief synopsis of the movie plot.
+  - `production_companies`: Companies involved in the production of the movie.
   - `genres`: Genres associated with the movie.
+  - `keywords`: Relevant keywords related to the movie's themes and content.
   - `cast`: List of actors involved in the film.
   - `crew`: Key production staff (e.g., director, producer).
   - `vote_average`: Average rating given by viewers.
-  - `overview`: Brief synopsis of the movie plot.
+
+ 
 
 - **Recommendation Logic**:
   - **Content-Based Filtering**: Suggests movies similar to the selected one based on features like genre, cast, and plot.
